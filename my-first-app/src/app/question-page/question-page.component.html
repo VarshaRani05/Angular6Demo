@@ -1,0 +1,28 @@
+<h2>{{heading}}</h2>
+<div *ngFor="let questions of quesansdetails" class="showdetails">
+  <div class="viewcount">
+    <span>{{questions.view_count}}</span>
+    <div>ViewCount</div>
+  </div>
+  <div class="anscount">
+      <span>{{questions.answer_count}}</span>
+      <div>Answer</div>
+  </div>
+  <div class="bountrycount">
+      <span>{{questions.bounty_amount}}</span>
+      <div> bountyputation</div>
+  </div>
+  <div class="questiontitle">
+      {{questions.title}}
+  </div>
+
+  <div (click)="displayProfile()" class="displayname">
+      <span>{{questions.owner.display_name}}</span>
+      <div>author</div>
+  </div>
+  <div class="creationdate">
+      <span>{{questions.creation_date}}</span>
+      <div>created Date</div>
+  </div>
+</div>
+

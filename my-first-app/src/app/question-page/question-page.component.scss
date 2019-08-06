@@ -1,0 +1,30 @@
+.showdetails{
+    border: 1px solid grey;
+    margin: 5px 0;
+    clear: both;
+    height: 50px;
+    .viewcount{
+        float: left;
+    /* border: 1px solid blue; */
+    padding: 10px;
+    margin-right: 10px;
+    }
+    .anscount{
+        float: left;
+        padding: 10px;
+    }
+    .bountrycount{
+        float: left;
+        padding: 10px;
+    }
+    .questiontitle{
+        float: left;
+    padding: 10px;
+    color:blue;
+    }
+    .displayname{
+       float: left;
+    padding: 10px;
+    color:blue;
+    }
+}
